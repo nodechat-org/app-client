@@ -1,0 +1,10 @@
+node_modules/
+.expo/
+build/
+.DS_Store
+Pods/
+android/.gradle/*
+dist/
+*.pfx
+*.log
+*.hprof
