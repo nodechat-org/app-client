@@ -6,7 +6,7 @@
 		"postinstall": "patch-package",
 		"android": "react-native run-android",
 		"ios": "react-native run-ios",
-		"windows": "react-native run-windows",
+		"windows": "react-native run-windows --logging",
 		"web": "node scripts/start.js",
 		"linux": "webpack --mode=development ",
 		"webpackRun": "babel-node dist/index.out.js",
