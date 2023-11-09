@@ -11,7 +11,7 @@
 		"linux": "webpack --mode=development ",
 		"webpackRun": "babel-node dist/index.out.js",
 		"watch:theme": "node-sass src/assets/themes/fosscord.scss --watch --output src/assets/themes",
-		"build:web": "node scripts/build.js",
+		"build:web": "set SET NODE_OPTIONS=--openssl-legacy-provider && node scripts/build.js",
 		"build:theme": "node-sass src/assets/themes/fosscord.scss --output src/assets/themes",
 		"start": "node scripts/bundler.js",
 		"bundler": "react-native start"
